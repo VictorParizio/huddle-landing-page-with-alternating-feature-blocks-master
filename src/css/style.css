@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.hero {
+    background:  url(../images/bg-hero-desktop.svg) no-repeat;
+    background-size: 100% 100%;
+    background-color: var(--very-pale);
+}
+
+.header {
+    margin-bottom: 65px;
+}
+.header .logo {
+    height: 32px;
+}
+
+.header .button.try {
+    background-color: hsl(0, 0%, 100%);
+}
+
+.hero .description {
+    width: 520px;
+    /* background-color: aqua; */
+}
+
+.hero .description .button.started{
+    background-color: var(--pink);
+    color: var(--very-pale);
+    letter-spacing: 0.5px;
+    padding: 20px 70px;
+    font-size: 1.3rem;
+}
+
+.hero img {
+    height: 495px;
+}

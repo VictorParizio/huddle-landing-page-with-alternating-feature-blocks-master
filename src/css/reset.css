@@ -1,0 +1,8 @@
+*{
+    font-size: 1.8rem;
+    color: var(--very-dark);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
