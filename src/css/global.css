@@ -3,16 +3,18 @@
 html {
     font-family: 'Open Sans', sans-serif;
     font-size: 62.5%;
+    color: var(--very-dark);
 }
 
-section{
-    padding: 50px 80px;
+section {
+    padding: 46px 80px 60px;
 }
 
-.container {
+section>div {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 58px;
 }
 
 h1,
@@ -21,18 +23,34 @@ h2 {
 }
 
 h1 {
-    font-size: 4rem;
+    font-size: 3.8rem;
+    line-height: 56px;
 }
 
-h1~p {
-    margin: 28px 0 46px;
-    line-height: 28px;
+h2 {
+    font-size: 2.5rem;
+}
+
+h1~p,
+h2~p {
+    margin-top: 24px;
+    line-height: 25px;
+    width: 448px;
+    /* background-color: aqua; */
 }
 
 .button {
+    display: inline-block;
     font-size: 1.4rem;
     font-weight: 700;
-    padding: 14px 70px;
     border-radius: 50px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.button.started {
+    background-color: var(--pink);
+    color: var(--very-pale);
+    letter-spacing: 0.5px;
+    padding: 17px 70px;
+    margin-top: 50px;
 }

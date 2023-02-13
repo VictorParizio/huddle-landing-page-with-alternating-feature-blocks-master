@@ -10,29 +10,42 @@ body {
 }
 
 .header {
-    margin-bottom: 65px;
+    margin-bottom: 60px;
 }
+
 .header .logo {
-    height: 32px;
+    height: 28px;
 }
 
 .header .button.try {
     background-color: hsl(0, 0%, 100%);
-}
-
-.hero .description {
-    width: 520px;
-    /* background-color: aqua; */
-}
-
-.hero .description .button.started{
-    background-color: var(--pink);
-    color: var(--very-pale);
-    letter-spacing: 0.5px;
-    padding: 20px 70px;
-    font-size: 1.3rem;
+    padding: 12px 56px;
 }
 
 .hero img {
-    height: 495px;
+    max-height: 455px;
+}
+
+.you-can{
+    margin: 100px 0;
+}
+
+.you-can>div {
+    height: 410px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    margin: 40px 16px;
+    padding: 0 30px 0 110px;
+}
+
+.you-can>div:nth-child(2) {
+    flex-direction: row-reverse;
+}
+
+.you-can p {
+    color: var(--grayish);
+}
+
+.you-can img {
+    height: 300px;
 }
