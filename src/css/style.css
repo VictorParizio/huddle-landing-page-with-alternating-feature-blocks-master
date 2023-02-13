@@ -4,7 +4,7 @@ body {
 }
 
 .hero {
-    background:  url(../images/bg-hero-desktop.svg) no-repeat;
+    background: url(../images/bg-hero-desktop.svg) no-repeat;
     background-size: 100% 100%;
     background-color: var(--very-pale);
 }
@@ -26,7 +26,7 @@ body {
     max-height: 455px;
 }
 
-.you-can{
+.you-can {
     margin: 100px 0;
 }
 
@@ -48,4 +48,37 @@ body {
 
 .you-can img {
     height: 300px;
+}
+
+.build-your-community {
+    position: relative;
+    margin-top: 300px;
+    /* background-color: aqua; */
+}
+
+.build-your-community div {
+    background-color: hsl(0, 0%, 100%);
+    flex-direction: column;
+    position: absolute;
+    bottom: 100px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 740px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    gap: 0;
+    padding: 50px 0;
+}
+
+.build-your-community h3 {
+    font-size: 3.2rem;
+}
+
+.build-your-community .button.started {
+    font-size: 1.8rem;
+    letter-spacing: 0.5px;
+    padding: 24px 90px;
+    margin-top: 30px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
