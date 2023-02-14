@@ -1,5 +1,5 @@
 body {
-    display: flex;
+    display: grid;
     justify-content: center;
 }
 
@@ -52,15 +52,14 @@ body {
 
 .build-your-community {
     position: relative;
-    margin-top: 300px;
-    /* background-color: aqua; */
+    margin-top: 100px;
 }
 
 .build-your-community div {
     background-color: hsl(0, 0%, 100%);
     flex-direction: column;
     position: absolute;
-    bottom: 100px;
+    bottom: -100px;
     left: 0;
     right: 0;
     margin: auto;
@@ -81,4 +80,73 @@ body {
     padding: 24px 90px;
     margin-top: 30px;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+footer {
+    background-color: var(--very-dark);
+    color: var(--very-pale);
+    padding-top: 180px;
+    font-size: 1.2rem;
+}
+
+footer .menu {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+footer .menu .contact li{
+    width: 420px;
+    display: flex;
+    gap: 20px;
+    padding-bottom: 20px;
+}
+
+footer .menu .contact li i{
+    margin-top: 6px;
+}
+
+footer .menu .links {
+    gap: 20px;
+    height: 125px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+footer .menu .social {
+    height: 30px;
+    display: inline-flex;
+    gap: 15px;
+}
+
+footer .menu .social i {
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 1px solid;
+    height: 30px;
+    width: 30px;
+}
+
+footer a {
+    color: var(--very-pale);
+    transition: 0.2s ease-in-out;
+}
+footer .menu .links a:hover {
+    text-decoration: underline;
+}
+
+.attribution a:hover,
+footer .social i:hover {
+    color: var(--pink);
+}
+
+.attribution {
+    text-align: center;
+    margin-top: 30px;
+    letter-spacing: 0;
 }
