@@ -1,0 +1,249 @@
+@media (max-width: 1200px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    section,
+    footer {
+        padding: 46px 50px 60px;
+    }
+
+    section>div {
+        gap: 30px;
+    }
+
+    h1 {
+        width: 350px;
+        font-size: 3rem;
+        line-height: 50px;
+    }
+
+    h2 {
+        font-size: 2.2rem;
+    }
+
+    h1~p,
+    h2~p {
+        font-size: 1.6rem;
+        width: 350px;
+    }
+
+    .button.started {
+        margin-top: 40px;
+    }
+
+    .hero img {
+        max-width: 450px;
+    }
+
+    .you-can>div {
+        padding: 0 30px 0 80px;
+    }
+
+    .you-can img {
+        height: 250px;
+    }
+
+    .build-your-community h3 {
+        font-size: 3rem;
+    }
+
+    footer {
+        padding-top: 180px;
+    }
+
+    footer .menu .contact li {
+        width: 280px;
+    }
+
+    footer .menu .links {
+        width: 280px;
+    }
+}
+
+@media (max-width: 987px) {
+
+    section,
+    footer {
+        padding: 46px 30px 60px;
+        text-align: center;
+    }
+
+    section>div {
+        gap: 30px;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+        line-height: 40px;
+        width: 265px;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    h1~p {
+        font-size: 1.6rem;
+        width: 265px;
+        margin-top: 12px;
+    }
+
+    h2~p {
+        font-size: 1.4rem;
+        margin-top: 12px;
+        line-height: 20px;
+        width: 230px;
+    }
+
+    .header .button.try {
+        font-size: 1.2rem;
+        padding: 10px 30px;
+    }
+
+    .button.started {
+        font-size: 1.2rem;
+        padding: 12px 50px;
+        margin-top: 30px;
+    }
+
+    .hero img {
+        max-width: 320px;
+    }
+
+    .you-can {
+        margin: 0;
+    }
+
+    .you-can>div {
+        height: 300px;
+        padding: 30px;
+    }
+
+    .you-can img {
+        height: 200px;
+    }
+
+    .build-your-community {
+        margin-top: 0;
+    }
+
+    .build-your-community div {
+        width: 500px;
+        padding: 30px 0;
+    }
+
+    .build-your-community h3 {
+        font-size: 2.5rem;
+    }
+
+    .build-your-community .button.started {
+        font-size: 1.4rem;
+        padding: 16px 50px;
+    }
+
+    footer {
+        padding-top: 150px;
+    }
+
+    footer p,
+    footer a,
+    footer .menu .contact li i,
+    .attribution {
+        font-size: 1.4rem;
+    }
+
+    footer img {
+        width: 200px;
+        margin: 0 10%;
+    }
+
+    footer .menu {
+        justify-content: center;
+        gap: 20px 60px;
+        flex-wrap: wrap;
+    }
+
+    footer .menu .contact li {
+        width: 280px;
+    }
+}
+
+@media (max-width: 679px) {
+
+    section,
+    footer {
+        padding: 30px 0px;
+        max-width: 375px;
+    }
+
+    section>div {
+        flex-direction: column;
+    }
+
+    .header {
+        flex-direction: row;
+        padding: 0 30px;
+    }
+
+    .header img {
+        width: 140px;
+    }
+
+    .hero {
+        background: url(../images/bg-hero-mobile.svg) no-repeat;
+        background-size: 100% 100%;
+        background-color: var(--very-pale);
+    }
+
+    .header .button.try {
+        font-size: 1.2rem;
+        padding: 10px 30px;
+    }
+
+    .you-can>div {
+        height: 450px;
+        width: 320px;
+        margin: 30px auto;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .you-can>div:nth-child(2) {
+        flex-direction: column-reverse;
+    }
+
+    .build-your-community div {
+        width: 320px;
+        bottom: -60px;
+    }
+
+    .build-your-community h3 {
+        font-size: 1.8rem;
+    }
+
+    .build-your-community .button.started {
+        font-size: 1rem;
+        padding: 16px 40px;
+        margin-top: 20px;
+    }
+
+    footer {
+        padding-top: 100px;
+    }
+
+    footer nav {
+        text-align: start;
+    }
+
+    .attribution {
+        width: 200px;
+        margin: auto;
+    }
+
+    .attribution p {
+        width: 150px;
+        margin: auto;
+        margin-top: 20px;
+    }
+}

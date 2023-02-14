@@ -8,13 +8,14 @@ html {
 
 section,
 footer {
+    max-width: 1440px;
     padding: 46px 80px 60px;
 }
 
 section>div {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     gap: 58px;
 }
 
@@ -26,6 +27,7 @@ h2 {
 h1 {
     font-size: 3.8rem;
     line-height: 56px;
+    width: 448px;
 }
 
 h2 {
