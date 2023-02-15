@@ -1,7 +1,4 @@
 @media (max-width: 1200px) {
-    body {
-        overflow-x: hidden;
-    }
 
     section,
     footer {
@@ -29,7 +26,7 @@
     }
 
     .button.started {
-        margin-top: 40px;
+        margin-top: 30px;
     }
 
     .hero img {
@@ -37,7 +34,7 @@
     }
 
     .you-can>div {
-        padding: 0 30px 0 80px;
+        padding: 55px 30px 55px 80px;
     }
 
     .you-can img {
@@ -57,9 +54,11 @@
     }
 
     footer .menu .links {
-        width: 280px;
+        gap: 20px 80px;
+        margin-right: 120px;
     }
 }
+
 
 @media (max-width: 987px) {
 
@@ -67,10 +66,6 @@
     footer {
         padding: 46px 30px 60px;
         text-align: center;
-    }
-
-    section>div {
-        gap: 30px;
     }
 
     h1 {
@@ -116,7 +111,6 @@
     }
 
     .you-can>div {
-        height: 300px;
         padding: 30px;
     }
 
@@ -144,6 +138,7 @@
 
     footer {
         padding-top: 150px;
+        text-align: start;
     }
 
     footer p,
@@ -154,8 +149,7 @@
     }
 
     footer img {
-        width: 200px;
-        margin: 0 10%;
+        width: 150px;
     }
 
     footer .menu {
@@ -165,16 +159,31 @@
     }
 
     footer .menu .contact li {
-        width: 280px;
+        width: 250px;
+    }
+
+    footer .menu .links {
+        gap: 20px 80px;
+        margin-right: 120px;
+    }
+
+    footer .menu .social {
+        margin-bottom: 30px;
     }
 }
 
 @media (max-width: 679px) {
 
+    /* section,
+    footer {
+        display: grid;
+        justify-content: center;
+        padding: 46px 80px 60px;
+    } */
+
     section,
     footer {
         padding: 30px 0px;
-        max-width: 375px;
     }
 
     section>div {
@@ -232,8 +241,22 @@
         padding-top: 100px;
     }
 
-    footer nav {
-        text-align: start;
+    footer .menu {
+        flex-direction: column;
+    }
+
+    footer .menu .contact li {
+        width: 250px;
+    }
+
+    footer .menu .links {
+        width: 250px;
+        gap: 20px 80px;
+        margin-right: 0;
+    }
+
+    footer .menu .social {
+        margin-bottom: 30px;
     }
 
     .attribution {

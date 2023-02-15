@@ -8,14 +8,15 @@ html {
 
 section,
 footer {
-    max-width: 1440px;
+    display: grid;
+    justify-content: center;
     padding: 46px 80px 60px;
 }
 
 section>div {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
     gap: 58px;
 }
 
